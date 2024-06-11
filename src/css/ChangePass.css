@@ -1,0 +1,107 @@
+.change-password-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-top: 1%;
+  transition: box-shadow 0.3s, border-color 0.3s; 
+}
+
+
+.change-password-container:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+  
+  .change-password-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .success {
+    color: green;
+  }
+  
+  .change-password-form .form-group {
+    margin-bottom: 0px;
+  }
+  
+  .change-password-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .password-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .email-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .submit-button,
+  .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    background-image: linear-gradient(rgb(18, 219, 0) , rgb(0, 227, 219));
+  }
+
+  .submit-button:hover {
+    background-image: linear-gradient(rgb(18, 219, 0) ,  rgb(0, 173, 167));
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #fff;
+    background-image: linear-gradient(rgb(255, 0, 0) , rgb(195, 55, 55));
+  }
+  
+  
+  .cancel-button:hover {
+    background-image: linear-gradient(rgb(255, 0, 0) , rgb(127, 13, 13));
+  }
+  @media (max-width: 420px) {
+    .change-password-container {
+      width: 200px;
+      
+    }
+    .submit-button, .cancel-button {
+      padding: 7px 6px;
+      
+    }
+  }
+  

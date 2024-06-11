@@ -1,0 +1,91 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #355a8e;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 8px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1;
+  min-width: 50px;
+}
+.head {
+  display: block; 
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  padding: 8px 14px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  text-decoration: none; 
+}
+
+.head:hover {
+  background-color: #f0f0f0;
+  color: #3f51b5;
+  transform: scale(1.05);
+}
+
+.dropdown-content p, .dropdown-content button {
+  margin: 5px 0;
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content p:hover, .dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+
+ .username1 {
+  color: #fff;
+  
+  font-size: 20px;
+  font-weight: bold;
+}
+.username {
+  color: #fff;
+  cursor:pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.login-button, .signup-button {
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: #303f9f;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

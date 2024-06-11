@@ -1,0 +1,30 @@
+.preview {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    max-height: 150px; 
+    margin-top: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .preview:hover {
+    transform: scale(1.05); 
+  }
+  .file-input {
+    display: none;
+  }
+  
+  .custom-file-input {
+    border: none; 
+    background-color: #f0f0f0; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .custom-file-input:hover {
+    background-color: #e0e0e0; 
+  }
